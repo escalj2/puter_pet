@@ -68,15 +68,15 @@ class MainMenu extends StatelessWidget {
               const SizedBox(
                   height: 10), // Adds some vertical space between buttons
 
-              // The "Play with Pet" button
+              // The "Play Fetch" button
               ElevatedButton(
                 onPressed: () {
                   // Placeholder function for playing with a pet
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Play with Pet function')),
+                    const SnackBar(content: Text('Play Fetch function')),
                   );
                 },
-                child: const Text('Play with Pet'),
+                child: const Text('Play Fetch'),
               ),
             ],
           ),
