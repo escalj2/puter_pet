@@ -34,7 +34,7 @@ class PuterPetsApp extends StatelessWidget {
       title: 'PuterPets', // The title of the app
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.transparent), // Sets a theme color scheme
+            seedColor: Colors.green), // Sets a theme color scheme
         useMaterial3: true, // Uses Material Design 3
       ),
       home: const MainMenu(), // Sets the initial screen to MainMenu
@@ -49,10 +49,12 @@ class MainMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.transparent,
+      //backgroundColor: Colors.transparent,
+      
       appBar: AppBar(
         title: const Text('PuterPets Menu'), // The title of the app bar
       ),
+      
       body: Center(
         child: SizedBox(
           width: 200, // Limits the width of the buttons container to 200 pixels
